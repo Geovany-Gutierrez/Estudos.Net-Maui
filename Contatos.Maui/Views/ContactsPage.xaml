@@ -16,6 +16,6 @@
                 <TextCell Text="{Binding Path=Name}" Detail="{Binding Path=Email}"></TextCell>
             </DataTemplate>
         </ListView.ItemTemplate>
-    </ListView>
+        </ListView>
 </ContentPage>
    

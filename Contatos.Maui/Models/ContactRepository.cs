@@ -10,10 +10,10 @@ namespace Contatos.Maui.Models
     {
         public static List<Contato> _contatos = new List<Contato>()
         {
-            new Contato { ContactId = 1, Name = "John Doe", Email = "johndoe@gmail.com" },
-            new Contato { ContactId = 2, Name = "Joao Silva", Email = "joaosilva@gmail.com"},
-            new Contato { ContactId = 3, Name = "Juan pablo", Email = "Juanpablo@gmail.com"},
-            new Contato { ContactId = 4, Name = "eduardo ferrira", Email = "eduardoferreira@gmail.com"},
+            new Contato { ContactId = 1, Name = "John Doe", Email = "johndoe@gmail.com", Phone = "(11)99999-9999", Address = "Monte mioboco" },
+            new Contato { ContactId = 2, Name = "Joao Silva", Email = "joaosilva@gmail.com", Phone = "(11)99999-9999", Address = "Konoha"},
+            new Contato { ContactId = 3, Name = "Juan pablo", Email = "Juanpablo@gmail.com",  Phone = "(11)99999-9999", Address = "Vila da areia"},
+            new Contato { ContactId = 4, Name = "eduardo ferrira", Email = "eduardoferreira@gmail.com", Phone = "(11)99999-9999", Address = "Vila da chuva"},
         };
 
         public static List<Contato> GetContatos() => _contatos;

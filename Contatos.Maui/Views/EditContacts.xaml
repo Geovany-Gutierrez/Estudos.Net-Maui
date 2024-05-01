@@ -3,24 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contatos.Maui.Views.EditContacts"
              Title="EditContacts">
-    <VerticalStackLayout Spacing="15">
-        <Label  
-            x:Name="lblName"
-            Text=""
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
-            />
-        <Label 
-            x:Name="lblEmail"
-            Text=""
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            />
-        <Button 
-           Text="Cancelar"
-           x:Name="btnCancel"
-           Clicked="btnCancel_Clicked"
-          />
+    <VerticalStackLayout Spacing="10" Margin="25, 0">
+
+        <Frame Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Name" VerticalOptions="Center"/>
+                <Entry x:Name="lblName" WidthRequest="225" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Email" VerticalOptions="Center"/>
+                <Entry x:Name="lblEmail" WidthRequest="225" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Telefone" VerticalOptions="Center"/>
+                <Entry x:Name="lblPhone" WidthRequest="225" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Endereço" VerticalOptions="Center"/>
+                <Entry x:Name="lblAddress" WidthRequest="225" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
 
     </VerticalStackLayout>
 </ContentPage>
