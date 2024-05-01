@@ -8,36 +8,54 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Contatos.Maui
-build_property.ProjectDir = C:\Users\DanielGutierrez\source\repos\Contatos\Contatos.Maui\
+build_property.ProjectDir = C:\Users\DanielGutierrez\Desktop\SistemaWebTcc\Estudos.Net-Maui\Contatos.Maui\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/DanielGutierrez/source/repos/Contatos/Contatos.Maui/App.xaml]
+[C:/Users/DanielGutierrez/Desktop/SistemaWebTcc/Estudos.Net-Maui/Contatos.Maui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contatos.Maui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/DanielGutierrez/source/repos/Contatos/Contatos.Maui/AppShell.xaml]
+[C:/Users/DanielGutierrez/Desktop/SistemaWebTcc/Estudos.Net-Maui/Contatos.Maui/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contatos.Maui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/DanielGutierrez/source/repos/Contatos/Contatos.Maui/MainPage.xaml]
+[C:/Users/DanielGutierrez/Desktop/SistemaWebTcc/Estudos.Net-Maui/Contatos.Maui/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contatos.Maui.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/DanielGutierrez/source/repos/Contatos/Contatos.Maui/Resources/Styles/Colors.xaml]
+[C:/Users/DanielGutierrez/Desktop/SistemaWebTcc/Estudos.Net-Maui/Contatos.Maui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contatos.Maui.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/DanielGutierrez/source/repos/Contatos/Contatos.Maui/Resources/Styles/Styles.xaml]
+[C:/Users/DanielGutierrez/Desktop/SistemaWebTcc/Estudos.Net-Maui/Contatos.Maui/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Contatos.Maui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/DanielGutierrez/Desktop/SistemaWebTcc/Estudos.Net-Maui/Contatos.Maui/Views/AddContacts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Contatos.Maui.Views.AddContacts.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddContacts.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddContacts.xaml
+
+[C:/Users/DanielGutierrez/Desktop/SistemaWebTcc/Estudos.Net-Maui/Contatos.Maui/Views/ContactsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Contatos.Maui.Views.ContactsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ContactsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ContactsPage.xaml
+
+[C:/Users/DanielGutierrez/Desktop/SistemaWebTcc/Estudos.Net-Maui/Contatos.Maui/Views/EditContacts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Contatos.Maui.Views.EditContacts.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditContacts.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditContacts.xaml

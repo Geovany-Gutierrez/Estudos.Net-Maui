@@ -13,12 +13,12 @@
         {
             count++;
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
+            CounterBtn.Text=($"Clicou {count} vezes");
             SemanticScreenReader.Announce(CounterBtn.Text);
+        }
+        private void OnResetClicked(object sender, EventArgs e)
+        {
+            CounterBtn.Text=($"Clicou {count = 0} vezes");
         }
     }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DanielGutierrez\\source\\repos\\Contatos\\Contatos.Maui\\Contatos.Maui.csproj": {}
+    "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Contatos.Maui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DanielGutierrez\\source\\repos\\Contatos\\Contatos.Maui\\Contatos.Maui.csproj": {
+    "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Contatos.Maui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DanielGutierrez\\source\\repos\\Contatos\\Contatos.Maui\\Contatos.Maui.csproj",
+        "projectUniqueName": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Contatos.Maui.csproj",
         "projectName": "Contatos.Maui",
-        "projectPath": "C:\\Users\\DanielGutierrez\\source\\repos\\Contatos\\Contatos.Maui\\Contatos.Maui.csproj",
+        "projectPath": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Contatos.Maui.csproj",
         "packagesPath": "C:\\Users\\DanielGutierrez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DanielGutierrez\\source\\repos\\Contatos\\Contatos.Maui\\obj\\",
+        "outputPath": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

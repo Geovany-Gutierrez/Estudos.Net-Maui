@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j+clTnoe3JXZGOhyzVEflunXntQvsE3QO3xsmoX6xNo7p/RFy23haYRGe9wsUbPFp59HzFqm+D55RYOVjlMDWA==",
+  "dgSpecHash": "p0CeGJTzEp/VtNbWcVFAPaPMyTrSbhppl6RqUnFZKkiOfV2iFwYAwfmSLIwRO9Sa43wbzat/mMkO0r7PVdq2BA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DanielGutierrez\\source\\repos\\Contatos\\Contatos.Maui\\Contatos.Maui.csproj",
+  "projectFilePath": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Contatos.Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DanielGutierrez\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\DanielGutierrez\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
