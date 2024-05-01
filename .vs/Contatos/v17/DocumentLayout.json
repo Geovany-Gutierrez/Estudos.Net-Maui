@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|c:\\users\\danielgutierrez\\desktop\\sistemawebtcc\\estudos.net-maui\\contatos.maui\\views\\editcontacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|solutionrelative:contatos.maui\\views\\editcontacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|c:\\users\\danielgutierrez\\desktop\\sistemawebtcc\\estudos.net-maui\\contatos.maui\\views\\contactspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|solutionrelative:contatos.maui\\views\\contactspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|c:\\users\\danielgutierrez\\desktop\\sistemawebtcc\\estudos.net-maui\\contatos.maui\\models\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|solutionrelative:contatos.maui\\models\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|c:\\users\\danielgutierrez\\desktop\\sistemawebtcc\\estudos.net-maui\\contatos.maui\\views\\editcontacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|solutionrelative:contatos.maui\\views\\editcontacts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|c:\\users\\danielgutierrez\\desktop\\sistemawebtcc\\estudos.net-maui\\contatos.maui\\views\\contactspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|solutionrelative:contatos.maui\\views\\contactspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|c:\\users\\danielgutierrez\\desktop\\sistemawebtcc\\estudos.net-maui\\contatos.maui\\models\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|solutionrelative:contatos.maui\\models\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FE37D02-10CA-43DD-8B32-D5CE09A76DAA}|Contatos.Maui\\Contatos.Maui.csproj|c:\\users\\danielgutierrez\\desktop\\sistemawebtcc\\estudos.net-maui\\contatos.maui\\views\\editcontacts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EditContacts.xaml",
               "DocumentMoniker": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Views\\EditContacts.xaml",
               "RelativeDocumentMoniker": "Contatos.Maui\\Views\\EditContacts.xaml",
               "ToolTip": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Views\\EditContacts.xaml",
               "RelativeToolTip": "Contatos.Maui\\Views\\EditContacts.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-01T17:22:53.033Z",
+              "WhenOpened": "2024-05-01T18:32:13.065Z",
               "EditorCaption": ""
             },
             {
@@ -61,46 +57,36 @@
               "RelativeDocumentMoniker": "Contatos.Maui\\Models\\ContactRepository.cs",
               "ToolTip": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Models\\ContactRepository.cs",
               "RelativeToolTip": "Contatos.Maui\\Models\\ContactRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T17:13:11.397Z"
+              "WhenOpened": "2024-05-01T18:28:38.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ContactsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Views\\ContactsPage.xaml.cs",
               "RelativeDocumentMoniker": "Contatos.Maui\\Views\\ContactsPage.xaml.cs",
               "ToolTip": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Views\\ContactsPage.xaml.cs",
               "RelativeToolTip": "Contatos.Maui\\Views\\ContactsPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T17:06:53.79Z",
+              "WhenOpened": "2024-05-01T18:20:35.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ContactsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Views\\ContactsPage.xaml",
-              "RelativeDocumentMoniker": "Contatos.Maui\\Views\\ContactsPage.xaml",
-              "ToolTip": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Views\\ContactsPage.xaml",
-              "RelativeToolTip": "Contatos.Maui\\Views\\ContactsPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-01T16:54:56.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "EditContacts.xaml.cs",
               "DocumentMoniker": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Views\\EditContacts.xaml.cs",
               "RelativeDocumentMoniker": "Contatos.Maui\\Views\\EditContacts.xaml.cs",
               "ToolTip": "C:\\Users\\DanielGutierrez\\Desktop\\SistemaWebTcc\\Estudos.Net-Maui\\Contatos.Maui\\Views\\EditContacts.xaml.cs",
               "RelativeToolTip": "Contatos.Maui\\Views\\EditContacts.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAADgvxcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:51:39.552Z"
+              "WhenOpened": "2024-05-01T15:51:39.552Z",
+              "EditorCaption": ""
             }
           ]
         }

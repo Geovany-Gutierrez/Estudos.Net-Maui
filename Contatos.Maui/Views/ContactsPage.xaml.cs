@@ -13,7 +13,7 @@ public partial class ContactsPage : ContentPage
     {
         if (list.SelectedItem != null)
         {
-            await Shell.Current.GoToAsync($"{nameof(EditContacts)}?Id={(Contato)list.SelectedItem}");      
+            await Shell.Current.GoToAsync($"{nameof(EditContacts)}?Id={((Contato)list.SelectedItem).ContactId}");      
         }
         //logic
     }

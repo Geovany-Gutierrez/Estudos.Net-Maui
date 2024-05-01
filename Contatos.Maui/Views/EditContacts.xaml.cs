@@ -1,7 +1,10 @@
-namespace Contatos.Maui.Views;
+using Contatos.Maui.Models;
 
+namespace Contatos.Maui.Views;
+[QueryProperty(nameof(ContactId),"Id")]
 public partial class EditContacts : ContentPage
 {
+    private Contato contact;
 	public EditContacts()
 	{
 		InitializeComponent();
@@ -9,7 +12,16 @@ public partial class EditContacts : ContentPage
 
     private void btnCancel_Clicked(object sender, EventArgs e)
     {
-        Console.WriteLine("Click");
         Shell.Current.GoToAsync($"//{nameof(ContactsPage)}");
+    }
+
+    public string ContactId
+    {
+        set
+        {
+            contact = ContactRepository.GetContactById(int.Parse(value));
+            lblName.Text = contact.Name;
+            lblEmail.Text = contact.Email;
+        }
     }
 }
