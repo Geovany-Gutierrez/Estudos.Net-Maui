@@ -1,0 +1,58 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+    CALL DBA.SP_FLUREA_CONREC_IDCTAORIGEM (
+        3,
+        6,
+        26525368,
+        '01',
+        'AVU',
+        4515602,
+        3,
+        'F',
+        'TES'
+    );
+# Ignora arquivos de compilação e arquivos gerados
+bin/
+obj/
+
+# Ignora arquivos de dependências
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+*.cache
+*.log
+*.vs
+
+# Ignora diretórios de dependências
+packages/
+node_modules/
+bower_components/
+
+# Ignora arquivos de configuração de IDEs
+.vscode/
+.idea/
+
+# Ignora arquivos de compilação do .NET Core
+*.sln.ide
+*.sln.iml
+*.suo
+*.swp
+*.sln.DotSettings
+
+# Ignora arquivos de compilação do Visual Studio
+*.userprefs
+*.usertasks
+*.psess
+*.vsp
+*.vspx
+*.sln.ide
+*.suo
+*.swp
+*.sln.DotSettings
+
+# Ignora arquivos de compilação do Rider
+*.sln.DotSettings
+*.csproj.DotSettings.user
