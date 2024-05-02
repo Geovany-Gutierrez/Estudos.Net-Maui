@@ -54,5 +54,31 @@ namespace Contatos.Maui.Models
                 _contatos.Add(contato);
             }
         }
+        public static void DeleteContact(int contactId)
+        {
+            var contact =_contatos.FirstOrDefault(x => x.ContactId == contactId);
+            _contatos.Remove(contact);
+        }
+
+        public static List<Contato> SearchContacts(string filterText)
+        {
+            var contacts = _contatos.Where(x => !string.IsNullOrWhiteSpace(x.Name) && x.Name.StartsWith(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
+            if (contacts == null || contacts.Count <= 0)
+                contacts = _contatos.Where(x => !string.IsNullOrWhiteSpace(x.Email) && x.Email.StartsWith(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
+            else
+                return contacts;
+
+            if (contacts == null || contacts.Count <= 0)
+                contacts = _contatos.Where(x => !string.IsNullOrWhiteSpace(x.Phone) && x.Phone.StartsWith(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
+            else
+                return contacts;
+
+            if (contacts == null || contacts.Count <= 0)
+                contacts = _contatos.Where(x => !string.IsNullOrWhiteSpace(x.Address) && x.Address.StartsWith(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
+            else
+                return contacts;
+
+            return contacts;
+        }
     }
 }

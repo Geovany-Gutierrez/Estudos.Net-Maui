@@ -2,9 +2,23 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contatos.Maui.Views.ContactsPage"
-             Title="Contatos"
+             Title="teste"
              >
-    <ListView
+    <Grid 
+          Padding="5"
+          RowDefinitions="50, *, 50, 60"
+          ColumnDefinitions="*">
+
+        <SearchBar
+            x:Name="searchContacts"
+            Grid.Row="0"
+            Grid.Column="0"
+            Placeholder="Pesquisar um contato"
+            TextChanged="SearchBar_TextChanged"
+            ></SearchBar>
+        
+        <ListView Grid.Row="1"
+                  Grid.Column="1"
             x:Name="list" 
             BackgroundColor="Transparent"
             SeparatorColor="black"
@@ -12,11 +26,49 @@
             ItemSelected="list_ItemSelected"
             ItemTapped="list_ItemTapped"
              >
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding Path=Name}" Detail="{Binding Path=Email}"></TextCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Path=Name}" Detail="{Binding Path=Email}">
+                        <TextCell.ContextActions>
+                            <MenuItem 
+                                Text="Deletar" 
+                                IsDestructive="True" 
+                                Clicked="MenuItem_Clicked"
+                                CommandParameter="{Binding .}"></MenuItem>
+                        </TextCell.ContextActions>
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button
+            x:Name="btnAdd" 
+            Grid.Row="2"
+            Grid.Column="2"
+            Margin="0, 0, 20, 20"
+            HorizontalOptions="End"
+            HeightRequest="50"
+            WidthRequest="50"
+            Text="+"
+            FontSize="32"
+            Padding="0, 0, 0, 2"
+            Clicked="btnAdd_Clicked">
+        </Button>
+
+        <HorizontalStackLayout
+            Grid.Row="3"
+            Grid.Column="3"
+            HorizontalOptions="Fill"
+            Background="White"
+            Spacing="0"
+            VerticalOptions="Fill">
+            <Button
+                x:Name="btnContacts"
+                HorizontalOptions="Start"
+                VerticalOptions="Center">
+                
+            </Button>
+        </HorizontalStackLayout>
+    </Grid>
 </ContentPage>
    
