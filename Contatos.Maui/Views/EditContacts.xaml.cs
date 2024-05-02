@@ -1,4 +1,5 @@
 using Contatos.Maui.Models;
+using Contatos.Maui.Views.Controls;
 using System.ComponentModel.DataAnnotations;
 using System.Text.RegularExpressions;
 
@@ -21,21 +22,27 @@ public partial class EditContacts : ContentPage
         set
         {
             contact = ContactRepository.GetContactById(int.Parse(value));
-            lblName.Text = contact.Name;
-            lblEmail.Text = contact.Email;
-            lblPhone.Text = contact.Phone;
-            lblAddress.Text = contact.Email;
+            contactCtrl.Name = contact.Name;
+            contactCtrl.Email = contact.Email;
+            contactCtrl.Phone = contact.Phone;
+            contactCtrl.Address = contact.Address;
 
         }
     }
-    private void btnUpdate_Clicked(object sender, EventArgs e)
+
+    private void contactCtrl_OnSave(object sender, EventArgs e)
     {
-        contact.Name = lblName.Text;
-        contact.Email = lblEmail.Text;
-        contact.Phone = lblPhone.Text;
-        contact.Address = lblAddress.Text;
+        contact.Name = contactCtrl.Name;
+        contact.Email = contactCtrl.Email;
+        contact.Phone = contactCtrl.Phone;
+        contact.Address = contactCtrl.Address;
 
         ContactRepository.UpdateContact(contact.ContactId, contact);
         Shell.Current.GoToAsync($"//{nameof(ContactsPage)}");
+    }
+
+    private void contactCtrl_OnError(object sender, string e)
+    {
+        DisplayAlert("Error", e, "OK");
     }
 }

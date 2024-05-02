@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Contatos.Maui.Views.Controls.ContactControl" >
+    <VerticalStackLayout Spacing="10" Margin="25, 0">
+
+        <Frame Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Name" VerticalOptions="Center"/>
+                <Entry x:Name="lblName" WidthRequest="225" VerticalOptions="Center">
+                    <Entry.Behaviors>
+                        <toolkit:TextValidationBehavior
+                        x:Name="nameValidator"
+                        RegexPattern="[a-zA-Z]+"
+                        Flags="ValidateOnAttaching,ValidateOnValueChanged"
+                        MinimumLength="1"
+                        />
+                    </Entry.Behaviors>
+                </Entry>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Email" VerticalOptions="Center"/>
+                <Entry x:Name="lblEmail" WidthRequest="225" VerticalOptions="Center">
+                    <Entry.Behaviors>
+                        <toolkit:MultiValidationBehavior
+                        x:Name="emailValidator"
+                        Flags="ValidateOnAttaching,ValidateOnValueChanged"
+                        >
+
+                            <toolkit:TextValidationBehavior
+                        Flags="ValidateOnAttaching,ValidateOnValueChanged"
+                        MinimumLength="1"
+                        toolkit:MultiValidationBehavior.Error="O campo Email não pode ser vazio"
+                        />
+
+                            <toolkit:EmailValidationBehavior 
+                            Flags="ValidateOnAttaching,ValidateOnValueChanged"
+                            MinimumLength="1"
+                            toolkit:MultiValidationBehavior.Error="O formato do e-mail é invalido"
+                            />
+
+                        </toolkit:MultiValidationBehavior>
+                    </Entry.Behaviors>
+                </Entry>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Telefone" VerticalOptions="Center"/>
+                <Entry x:Name="lblPhone" WidthRequest="225" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Frame Padding="10, 2, 10, 2">
+            <HorizontalStackLayout>
+                <Label Text="Endereço" VerticalOptions="Center"/>
+                <Entry x:Name="lblAddress" WidthRequest="225" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Button
+        x:Name="btnSave"
+        Text="Confirmar alteração"
+        Clicked="btnSave_Clicked"/>
+        <Button 
+        x:Name="btnCancel"
+        Text="Cancelar"
+        Clicked="btnCancel_Clicked"/>
+    </VerticalStackLayout>
+</ContentView>

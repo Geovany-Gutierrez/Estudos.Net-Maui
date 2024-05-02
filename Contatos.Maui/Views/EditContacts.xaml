@@ -1,45 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:controls="clr-namespace:Contatos.Maui.Views.Controls"
              x:Class="Contatos.Maui.Views.EditContacts"
              Title="EditContacts">
-    <VerticalStackLayout Spacing="10" Margin="25, 0">
 
-        <Frame Padding="10, 2, 10, 2">
-            <HorizontalStackLayout>
-                <Label Text="Name" VerticalOptions="Center"/>
-                <Entry x:Name="lblName" WidthRequest="225" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
-        </Frame>
-
-        <Frame Padding="10, 2, 10, 2">
-            <HorizontalStackLayout>
-                <Label Text="Email" VerticalOptions="Center"/>
-                <Entry x:Name="lblEmail" WidthRequest="225" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
-        </Frame>
-
-        <Frame Padding="10, 2, 10, 2">
-            <HorizontalStackLayout>
-                <Label Text="Telefone" VerticalOptions="Center"/>
-                <Entry x:Name="lblPhone" WidthRequest="225" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
-        </Frame>
-
-        <Frame Padding="10, 2, 10, 2">
-            <HorizontalStackLayout>
-                <Label Text="Endereço" VerticalOptions="Center"/>
-                <Entry x:Name="lblAddress" WidthRequest="225" VerticalOptions="Center"/>
-            </HorizontalStackLayout>
-        </Frame>
-
-        <Button
-            x:Name="btnUpdate"
-            Text="Confirmar alterações"
-            Clicked="btnUpdate_Clicked"/>
-        <Button 
-            x:Name="btnCancel"
-            Text="Cancelar"
-            Clicked="btnCancel_Clicked"/>
-    </VerticalStackLayout>
+    <controls:ContactControl x:Name="contactCtrl"
+                             OnSave="contactCtrl_OnSave"
+                             OnCancel="btnCancel_Clicked"
+                             OnError="contactCtrl_OnError"></controls:ContactControl>
 </ContentPage>
