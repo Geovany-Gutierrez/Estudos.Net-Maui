@@ -1,4 +1,5 @@
 using Contatos.Maui.Models;
+using System.Collections.ObjectModel;
 using Contato = Contatos.Maui.Models.Contato;
 namespace Contatos.Maui.Views;
 public partial class ContactsPage : ContentPage
@@ -6,7 +7,11 @@ public partial class ContactsPage : ContentPage
     public ContactsPage()
     {
         InitializeComponent();
-        List<Contato> contatos = ContactRepository.GetContatos();
+    }
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        var contatos = new ObservableCollection<Contato>(ContactRepository.GetContatos());
         list.ItemsSource = contatos;
     }
     private async void list_ItemSelected(object sender, SelectedItemChangedEventArgs e)
