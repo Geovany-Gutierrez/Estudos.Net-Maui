@@ -16,6 +16,12 @@
 bin/
 obj/
 
+# Ignora arquivos e diretórios relacionados ao LLVM
+llvm/
+clang/
+llvm-build/
+
+
 # Ignora arquivos de dependências
 *.dll
 *.exe
