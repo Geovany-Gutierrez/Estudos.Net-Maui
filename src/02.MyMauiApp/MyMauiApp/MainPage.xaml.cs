@@ -8,17 +8,33 @@
         {
             InitializeComponent();
         }
+        string translatedNumber;
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void OnTranslate(object sender, EventArgs e)
         {
-            count++;
+            string enteredNumber = PhoneNumberText.Text;
+            translatedNumber = Core.PhonewordTranslator.ToNumber(enteredNumber);
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
+            if (!string.IsNullOrEmpty(translatedNumber))
+            {
+                CallButton.IsEnabled = true;
+            }
             else
-                CounterBtn.Text = $"Clicked {count} times";
+            {
+                // TODO:
+            }
+        }
+        async void OnCall(object sender, EventArgs e)
+        {
+            if (await this.DisplayAlert(
+                "Dial a Number",
+                "Would you like to call " + translatedNumber + "?",
+                "Yes",
+                "No"))
+            {
+                // TODO: dial the phone
+            }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
 
